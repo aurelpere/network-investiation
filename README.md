@@ -1,5 +1,6 @@
-## commands to check
+## commands to check compromised server
 
+w
 ###### currently logged users
 
 cat /etc/passwd | grep /bin/bash
