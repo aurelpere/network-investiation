@@ -17,6 +17,9 @@ cat /var/log/messages
 sudo cat /var/log/auth.log | grep ssh | grep Accept
 ###### ssh connections attempts 
 
+history
+###### show bash history
+
 ls -lart
 ###### check the files, their owner and time of modification
 
@@ -35,8 +38,6 @@ lsof |grep <pid>
 cat /proc/<pid>/cmdline 
 ######might also tell you where the file that controls a process exists.
 
-history
-###### show bash history
 
 top
 ###### check cpu intensive processes
